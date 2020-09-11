@@ -6,10 +6,10 @@ package csc1302;
 public class Rectangle {
 	int x = 0;
 	int y = 0;
-	double height = 0;
-	double width = 0;
+	int height = 0;
+	int width = 0;
 	
-	public void setFields(int newx, int newy, double newheight, double newwidth) {
+	public void setFields(int newx, int newy, int newheight, int newwidth) {
 		x = newx;
 		y = newy;
 		height = newheight;
@@ -22,10 +22,10 @@ public class Rectangle {
 	public int getY() {
 		return y;
 	}
-	public double getheight() {
+	public int getheight() {
 		return height;
 	}
-	public double getwidth() {
+	public int getwidth() {
 		return width;
 	}
 	public double area() {
@@ -35,6 +35,6 @@ public class Rectangle {
 		return(2*(height + width));
 	}
 	public String toString() {
-		return("Rectangle [x = " + x + ", y = " + y + ", height = " + height + ", width = " + width + "] Area is " + (int) (height * width) + ".");
+		return("Rectangle [x = " + x + ", y = " + y + ", height = " + height + ", width = " + width + "] Area is " + (height * width) + ".");
 	}
 }
