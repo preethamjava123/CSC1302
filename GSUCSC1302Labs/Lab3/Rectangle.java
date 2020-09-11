@@ -8,14 +8,12 @@ public class Rectangle {
 	int y = 0;
 	int height = 0;
 	int width = 0;
-	
 	public void setFields(int newx, int newy, int newheight, int newwidth) {
 		x = newx;
 		y = newy;
 		height = newheight;
 		width = newwidth;
-	}
-	
+	}	
 	public int getX() {
 		return x;
 	}
@@ -28,13 +26,13 @@ public class Rectangle {
 	public int getwidth() {
 		return width;
 	}
-	public double area() {
+	public int area() {
 		return(height * width);
 	}
-	public double perimeter() {
+	public int perimeter() {
 		return(2*(height + width));
 	}
 	public String toString() {
-		return("Rectangle [x = " + x + ", y = " + y + ", height = " + height + ", width = " + width + "] Area is " + (height * width) + ".");
+		return("Rectangle [x = " + getX() + ", y = " + getY() + ", height = " + getheight() + ", width = " + getwidth() + "] Area is " + area() + ".");
 	}
 }
