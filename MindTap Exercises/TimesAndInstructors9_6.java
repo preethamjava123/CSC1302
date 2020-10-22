@@ -1,5 +1,5 @@
 import java.util.*;
-class TimesAndInstructors
+class TimesAndInstructors9_6
 {
    public static void main(String[] args)
    {
