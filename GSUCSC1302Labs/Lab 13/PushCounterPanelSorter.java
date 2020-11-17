@@ -48,6 +48,5 @@ public class PushCounterPanelSorter extends JPanel implements ActionListener{
 			label.setText("A sorted array: " + Arrays.toString(arr));
 			
 	}
-
 }
 }
