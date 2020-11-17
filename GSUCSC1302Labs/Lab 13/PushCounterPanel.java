@@ -10,7 +10,7 @@ public class PushCounterPanel extends JPanel
    private JLabel label;
 
    //-----------------------------------------------------------------
-   //  Constructor: Sets up the GUI.
+   //  Constructor: Sets up the GU.
    //-----------------------------------------------------------------
    public PushCounterPanel()
    {
