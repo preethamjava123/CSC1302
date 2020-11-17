@@ -1,5 +1,4 @@
 package csc1302;
-
 import java.awt.Component;
 
 import javax.swing.JFrame;
