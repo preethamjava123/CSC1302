@@ -8,7 +8,7 @@ import java.awt.*;
 public class PushCounterSorter {
 
 	/**
-	 * @param args
+	 * @parm args
 	 */
 	public static void main(String[] args) {
 		JFrame frame = new JFrame("Sorter");
