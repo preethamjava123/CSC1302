@@ -1,8 +1,4 @@
-/**
- * 
- */
 package csc1302;
-
 /**
  * @author sthelluri1
  *
