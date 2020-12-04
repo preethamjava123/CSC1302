@@ -5,7 +5,7 @@
  */
 package csc1302;
 import java.util.*;
-public class Lab2_PThelluri {
+public class Lab2{
 
 	public static void reverse(int[] arr1) {
 		for(int m = 0; m < arr1.length/2; m++) {
