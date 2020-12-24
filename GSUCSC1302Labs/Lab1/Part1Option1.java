@@ -4,7 +4,7 @@ public class pattern1 {
 	public static void main(String[] args) {
 		{
 			for (int x=5; x==5; x++) {
-	             System.out.println(x);
+	             		System.out.println(x);
 	             	for (int y=4; y==4; y++) {
 	             		System.out.println(x + " " + y);
 	             		for (int z=3; z==3; z++) {
